@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta name="description" content="CSC210 - Intro to Web Presentation and Development - For classes A1, B1, and C2">
+    <meta name="keywords" content = "Neumont, CSC210, web dev, web development, student, portfolio, HTML5, CSS3">
+    <meta name="author" content="Julian Bernal">
+
+    <link rel="stylesheet" href="style2.css">
+    
+
+    <title> Neumont CSC210 - Introduction to Web Development and Presentation</title>
+</head>
+<body>
+   <header role="banner">
+        <button class="theme-toggle" id="theme-toggle">🌙 Dark Mode</button>
+        <div class="container">
+        <h1>Julian Bernal</h1>
+        <p class="tagline">CSC210 Student</p>
+    </div>
+   </header>
+
+   <nav role="navigation" aria-label="Main naviagtion">
+    <div class="container">
+        <ul>
+            <li><a href="index_intro.html" aria-describedby="about-desc">Home</a></li>
+            <li><a href="interests.html" aria-describedby="skills-desc">Interests</a></li>
+            <li><a href="favorites.html" aria-describedby="projects-desc">Favorite Sites</a></li>
+            <li><a href="plans.html" aria-describedby="contact-desk">Future Plans</a></li>
+        </ul>
+    </div>
+   </nav>
+    <main id="main-content" role="main">
+        <div class="container">
+            <!--About Section with HTML5 semantic elements-->
+            <section id="about" aria-labelledby="about-heading">
+
+                <h2 id="about-heading">About Me</h2>
+                <div class="about-content">
+                    <img src="Me.jpg" alt="Photo of Julian Bernal" width="250" hieght="300">
+                    <div class="about-text">
+                        <p>Hey, I'm Julian Bernal. I'm currently a Computer Science student who enjoys learning about 
+                            technology and how it shapes the world. I’ve always been curious about how things work, 
+                            especially websites and video games. Taking this class is part of my goal to become a better 
+                            developer and creative thinker.</p>
+                        <p>I’m <strong>passionate about problem-solving</strong> and I’m the type of person who keeps 
+                            going until I figure things out. While I’m still exploring my path in tech, I know I want 
+                            to do something that challenges me. I also <em>really enjoy learning new tools and languages
+                            </em> that make building projects easier and more fun.</p>
+                        <details>
+                            <summary>Class Journey</summary>
+                            <p>We started first html coding on July 3, 2025.</p>
+                        </details>
+                    </div>
+                </div>
+
+                <aside class="interests" aria-labelledby="interests-heading">
+                    <h3 id="interests-heading">Some Interests</h3>
+                    <ul>
+                        <li>
+                            <span role="img" aria-label="Gaming">🎮</span>
+                            Gaming (Tekken 8, SSBU, Guilty Gear)
+                        </li>
+                        <li>
+                            <span role="img" aria-label="Programming">🖥️</span>
+                            Programming (HTML5, CSS3, JavaScript)
+                        </li>
+                         <li>
+                            <span role="img" aria-label="Music">🎵</span>
+                            Music (Everything)
+                        </li>
+                         <li>
+                            <span role="img" aria-label="Learning">📚</span>
+                            Learning Cutting Edge New Technologies
+                        </li>
+
+                    </ul>
+                </aside>
+            </section>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <footer>
+        <p>Copyright ©2025 by Julian Bernal</p>
+    </footer>
+</body>
+
+</html>
